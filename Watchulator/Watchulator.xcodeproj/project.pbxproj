@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F02B5DF91FE8668D00B3971E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F02B5DF81FE8668D00B3971E /* main.m */; };
+		F02B5DFC1FE8668D00B3971E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F02B5DFB1FE8668D00B3971E /* AppDelegate.m */; };
+		F02B5DFF1FE8668D00B3971E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02B5DFE1FE8668D00B3971E /* ViewController.m */; };
+		F02B5E021FE8668D00B3971E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02B5E001FE8668D00B3971E /* Main.storyboard */; };
+		F02B5E041FE8668D00B3971E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02B5E031FE8668D00B3971E /* Assets.xcassets */; };
+		F02B5E071FE8668D00B3971E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02B5E051FE8668D00B3971E /* LaunchScreen.storyboard */; };
+		F02B5E121FE8668D00B3971E /* WatchulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F02B5E111FE8668D00B3971E /* WatchulatorTests.m */; };
+		F02B5E1D1FE8668D00B3971E /* WatchulatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F02B5E1C1FE8668D00B3971E /* WatchulatorUITests.m */; };
+		F02B5E221FE8668D00B3971E /* Watchulator WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F02B5E211FE8668D00B3971E /* Watchulator WatchKit App.app */; };
+		F02B5E281FE8668D00B3971E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02B5E261FE8668D00B3971E /* Interface.storyboard */; };
+		F02B5E2A1FE8668D00B3971E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02B5E291FE8668D00B3971E /* Assets.xcassets */; };
+		F02B5E311FE8668D00B3971E /* Watchulator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F02B5E301FE8668D00B3971E /* Watchulator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F02B5E371FE8668D00B3971E /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02B5E361FE8668D00B3971E /* InterfaceController.m */; };
+		F02B5E3A1FE8668D00B3971E /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F02B5E391FE8668D00B3971E /* ExtensionDelegate.m */; };
+		F02B5E3C1FE8668D00B3971E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02B5E3B1FE8668D00B3971E /* Assets.xcassets */; };
+		F0D633B820000FE80041D9DE /* JMOfficial.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D633B720000FE80041D9DE /* JMOfficial.png */; };
+		F0D633BA200012220041D9DE /* image (1).png in Resources */ = {isa = PBXBuildFile; fileRef = F0D633B9200012220041D9DE /* image (1).png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F02B5E0E1FE8668D00B3971E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02B5DEC1FE8668D00B3971E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02B5DF31FE8668D00B3971E;
+			remoteInfo = Watchulator;
+		};
+		F02B5E191FE8668D00B3971E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02B5DEC1FE8668D00B3971E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02B5DF31FE8668D00B3971E;
+			remoteInfo = Watchulator;
+		};
+		F02B5E231FE8668D00B3971E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02B5DEC1FE8668D00B3971E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02B5E201FE8668D00B3971E;
+			remoteInfo = "Watchulator WatchKit App";
+		};
+		F02B5E321FE8668D00B3971E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02B5DEC1FE8668D00B3971E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F02B5E2F1FE8668D00B3971E;
+			remoteInfo = "Watchulator WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F02B5E431FE8668D00B3971E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F02B5E311FE8668D00B3971E /* Watchulator WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E471FE8668D00B3971E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F02B5E221FE8668D00B3971E /* Watchulator WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F02B5DF41FE8668D00B3971E /* Watchulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watchulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B5DF81FE8668D00B3971E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F02B5DFA1FE8668D00B3971E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F02B5DFB1FE8668D00B3971E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F02B5DFD1FE8668D00B3971E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F02B5DFE1FE8668D00B3971E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F02B5E011FE8668D00B3971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F02B5E031FE8668D00B3971E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F02B5E061FE8668D00B3971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F02B5E081FE8668D00B3971E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02B5E0D1FE8668D00B3971E /* WatchulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B5E111FE8668D00B3971E /* WatchulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchulatorTests.m; sourceTree = "<group>"; };
+		F02B5E131FE8668D00B3971E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02B5E181FE8668D00B3971E /* WatchulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B5E1C1FE8668D00B3971E /* WatchulatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchulatorUITests.m; sourceTree = "<group>"; };
+		F02B5E1E1FE8668D00B3971E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02B5E211FE8668D00B3971E /* Watchulator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watchulator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B5E271FE8668D00B3971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F02B5E291FE8668D00B3971E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F02B5E2B1FE8668D00B3971E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02B5E301FE8668D00B3971E /* Watchulator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watchulator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B5E351FE8668D00B3971E /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		F02B5E361FE8668D00B3971E /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		F02B5E381FE8668D00B3971E /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		F02B5E391FE8668D00B3971E /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		F02B5E3B1FE8668D00B3971E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F02B5E3D1FE8668D00B3971E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D633B720000FE80041D9DE /* JMOfficial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JMOfficial.png; path = ../../../../../JMOfficial.png; sourceTree = "<group>"; };
+		F0D633B9200012220041D9DE /* image (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image (1).png"; path = "../../../../../../Downloads/image (1).png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F02B5DF11FE8668D00B3971E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E0A1FE8668D00B3971E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E151FE8668D00B3971E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E2D1FE8668D00B3971E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F02B5DEB1FE8668D00B3971E = {
+			isa = PBXGroup;
+			children = (
+				F02B5DF61FE8668D00B3971E /* Watchulator */,
+				F02B5E101FE8668D00B3971E /* WatchulatorTests */,
+				F02B5E1B1FE8668D00B3971E /* WatchulatorUITests */,
+				F02B5E251FE8668D00B3971E /* Watchulator WatchKit App */,
+				F02B5E341FE8668D00B3971E /* Watchulator WatchKit Extension */,
+				F02B5DF51FE8668D00B3971E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F02B5DF51FE8668D00B3971E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F02B5DF41FE8668D00B3971E /* Watchulator.app */,
+				F02B5E0D1FE8668D00B3971E /* WatchulatorTests.xctest */,
+				F02B5E181FE8668D00B3971E /* WatchulatorUITests.xctest */,
+				F02B5E211FE8668D00B3971E /* Watchulator WatchKit App.app */,
+				F02B5E301FE8668D00B3971E /* Watchulator WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02B5DF61FE8668D00B3971E /* Watchulator */ = {
+			isa = PBXGroup;
+			children = (
+				F02B5DFA1FE8668D00B3971E /* AppDelegate.h */,
+				F02B5DFB1FE8668D00B3971E /* AppDelegate.m */,
+				F02B5DFD1FE8668D00B3971E /* ViewController.h */,
+				F02B5DFE1FE8668D00B3971E /* ViewController.m */,
+				F02B5E001FE8668D00B3971E /* Main.storyboard */,
+				F02B5E031FE8668D00B3971E /* Assets.xcassets */,
+				F02B5E051FE8668D00B3971E /* LaunchScreen.storyboard */,
+				F02B5E081FE8668D00B3971E /* Info.plist */,
+				F02B5DF71FE8668D00B3971E /* Supporting Files */,
+			);
+			path = Watchulator;
+			sourceTree = "<group>";
+		};
+		F02B5DF71FE8668D00B3971E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0D633B9200012220041D9DE /* image (1).png */,
+				F0D633B720000FE80041D9DE /* JMOfficial.png */,
+				F02B5DF81FE8668D00B3971E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F02B5E101FE8668D00B3971E /* WatchulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F02B5E111FE8668D00B3971E /* WatchulatorTests.m */,
+				F02B5E131FE8668D00B3971E /* Info.plist */,
+			);
+			path = WatchulatorTests;
+			sourceTree = "<group>";
+		};
+		F02B5E1B1FE8668D00B3971E /* WatchulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F02B5E1C1FE8668D00B3971E /* WatchulatorUITests.m */,
+				F02B5E1E1FE8668D00B3971E /* Info.plist */,
+			);
+			path = WatchulatorUITests;
+			sourceTree = "<group>";
+		};
+		F02B5E251FE8668D00B3971E /* Watchulator WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F02B5E261FE8668D00B3971E /* Interface.storyboard */,
+				F02B5E291FE8668D00B3971E /* Assets.xcassets */,
+				F02B5E2B1FE8668D00B3971E /* Info.plist */,
+			);
+			path = "Watchulator WatchKit App";
+			sourceTree = "<group>";
+		};
+		F02B5E341FE8668D00B3971E /* Watchulator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F02B5E351FE8668D00B3971E /* InterfaceController.h */,
+				F02B5E361FE8668D00B3971E /* InterfaceController.m */,
+				F02B5E381FE8668D00B3971E /* ExtensionDelegate.h */,
+				F02B5E391FE8668D00B3971E /* ExtensionDelegate.m */,
+				F02B5E3B1FE8668D00B3971E /* Assets.xcassets */,
+				F02B5E3D1FE8668D00B3971E /* Info.plist */,
+			);
+			path = "Watchulator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F02B5DF31FE8668D00B3971E /* Watchulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B5E481FE8668D00B3971E /* Build configuration list for PBXNativeTarget "Watchulator" */;
+			buildPhases = (
+				F02B5DF01FE8668D00B3971E /* Sources */,
+				F02B5DF11FE8668D00B3971E /* Frameworks */,
+				F02B5DF21FE8668D00B3971E /* Resources */,
+				F02B5E471FE8668D00B3971E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02B5E241FE8668D00B3971E /* PBXTargetDependency */,
+			);
+			name = Watchulator;
+			productName = Watchulator;
+			productReference = F02B5DF41FE8668D00B3971E /* Watchulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F02B5E0C1FE8668D00B3971E /* WatchulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B5E4B1FE8668D00B3971E /* Build configuration list for PBXNativeTarget "WatchulatorTests" */;
+			buildPhases = (
+				F02B5E091FE8668D00B3971E /* Sources */,
+				F02B5E0A1FE8668D00B3971E /* Frameworks */,
+				F02B5E0B1FE8668D00B3971E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02B5E0F1FE8668D00B3971E /* PBXTargetDependency */,
+			);
+			name = WatchulatorTests;
+			productName = WatchulatorTests;
+			productReference = F02B5E0D1FE8668D00B3971E /* WatchulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F02B5E171FE8668D00B3971E /* WatchulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B5E4E1FE8668D00B3971E /* Build configuration list for PBXNativeTarget "WatchulatorUITests" */;
+			buildPhases = (
+				F02B5E141FE8668D00B3971E /* Sources */,
+				F02B5E151FE8668D00B3971E /* Frameworks */,
+				F02B5E161FE8668D00B3971E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02B5E1A1FE8668D00B3971E /* PBXTargetDependency */,
+			);
+			name = WatchulatorUITests;
+			productName = WatchulatorUITests;
+			productReference = F02B5E181FE8668D00B3971E /* WatchulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F02B5E201FE8668D00B3971E /* Watchulator WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B5E441FE8668D00B3971E /* Build configuration list for PBXNativeTarget "Watchulator WatchKit App" */;
+			buildPhases = (
+				F02B5E1F1FE8668D00B3971E /* Resources */,
+				F02B5E431FE8668D00B3971E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F02B5E331FE8668D00B3971E /* PBXTargetDependency */,
+			);
+			name = "Watchulator WatchKit App";
+			productName = "Watchulator WatchKit App";
+			productReference = F02B5E211FE8668D00B3971E /* Watchulator WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F02B5E2F1FE8668D00B3971E /* Watchulator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02B5E401FE8668D00B3971E /* Build configuration list for PBXNativeTarget "Watchulator WatchKit Extension" */;
+			buildPhases = (
+				F02B5E2C1FE8668D00B3971E /* Sources */,
+				F02B5E2D1FE8668D00B3971E /* Frameworks */,
+				F02B5E2E1FE8668D00B3971E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watchulator WatchKit Extension";
+			productName = "Watchulator WatchKit Extension";
+			productReference = F02B5E301FE8668D00B3971E /* Watchulator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F02B5DEC1FE8668D00B3971E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jake Moore";
+				TargetAttributes = {
+					F02B5DF31FE8668D00B3971E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 644287N5R4;
+						ProvisioningStyle = Automatic;
+					};
+					F02B5E0C1FE8668D00B3971E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F02B5DF31FE8668D00B3971E;
+					};
+					F02B5E171FE8668D00B3971E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F02B5DF31FE8668D00B3971E;
+					};
+					F02B5E201FE8668D00B3971E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 644287N5R4;
+						ProvisioningStyle = Automatic;
+					};
+					F02B5E2F1FE8668D00B3971E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 644287N5R4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F02B5DEF1FE8668D00B3971E /* Build configuration list for PBXProject "Watchulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F02B5DEB1FE8668D00B3971E;
+			productRefGroup = F02B5DF51FE8668D00B3971E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F02B5DF31FE8668D00B3971E /* Watchulator */,
+				F02B5E0C1FE8668D00B3971E /* WatchulatorTests */,
+				F02B5E171FE8668D00B3971E /* WatchulatorUITests */,
+				F02B5E201FE8668D00B3971E /* Watchulator WatchKit App */,
+				F02B5E2F1FE8668D00B3971E /* Watchulator WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F02B5DF21FE8668D00B3971E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D633BA200012220041D9DE /* image (1).png in Resources */,
+				F02B5E071FE8668D00B3971E /* LaunchScreen.storyboard in Resources */,
+				F02B5E041FE8668D00B3971E /* Assets.xcassets in Resources */,
+				F02B5E021FE8668D00B3971E /* Main.storyboard in Resources */,
+				F0D633B820000FE80041D9DE /* JMOfficial.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E0B1FE8668D00B3971E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E161FE8668D00B3971E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E1F1FE8668D00B3971E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B5E2A1FE8668D00B3971E /* Assets.xcassets in Resources */,
+				F02B5E281FE8668D00B3971E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E2E1FE8668D00B3971E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B5E3C1FE8668D00B3971E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F02B5DF01FE8668D00B3971E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B5DFF1FE8668D00B3971E /* ViewController.m in Sources */,
+				F02B5DFC1FE8668D00B3971E /* AppDelegate.m in Sources */,
+				F02B5DF91FE8668D00B3971E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E091FE8668D00B3971E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B5E121FE8668D00B3971E /* WatchulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E141FE8668D00B3971E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B5E1D1FE8668D00B3971E /* WatchulatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B5E2C1FE8668D00B3971E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02B5E3A1FE8668D00B3971E /* ExtensionDelegate.m in Sources */,
+				F02B5E371FE8668D00B3971E /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F02B5E0F1FE8668D00B3971E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02B5DF31FE8668D00B3971E /* Watchulator */;
+			targetProxy = F02B5E0E1FE8668D00B3971E /* PBXContainerItemProxy */;
+		};
+		F02B5E1A1FE8668D00B3971E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02B5DF31FE8668D00B3971E /* Watchulator */;
+			targetProxy = F02B5E191FE8668D00B3971E /* PBXContainerItemProxy */;
+		};
+		F02B5E241FE8668D00B3971E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02B5E201FE8668D00B3971E /* Watchulator WatchKit App */;
+			targetProxy = F02B5E231FE8668D00B3971E /* PBXContainerItemProxy */;
+		};
+		F02B5E331FE8668D00B3971E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F02B5E2F1FE8668D00B3971E /* Watchulator WatchKit Extension */;
+			targetProxy = F02B5E321FE8668D00B3971E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F02B5E001FE8668D00B3971E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F02B5E011FE8668D00B3971E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F02B5E051FE8668D00B3971E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F02B5E061FE8668D00B3971E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F02B5E261FE8668D00B3971E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F02B5E271FE8668D00B3971E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F02B5E3E1FE8668D00B3971E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F02B5E3F1FE8668D00B3971E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F02B5E411FE8668D00B3971E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 644287N5R4;
+				INFOPLIST_FILE = "Watchulator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.Watchulator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		F02B5E421FE8668D00B3971E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 644287N5R4;
+				INFOPLIST_FILE = "Watchulator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.Watchulator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		F02B5E451FE8668D00B3971E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 644287N5R4;
+				IBSC_MODULE = Watchulator_WatchKit_Extension;
+				INFOPLIST_FILE = "Watchulator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.Watchulator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		F02B5E461FE8668D00B3971E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 644287N5R4;
+				IBSC_MODULE = Watchulator_WatchKit_Extension;
+				INFOPLIST_FILE = "Watchulator WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.Watchulator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		F02B5E491FE8668D00B3971E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 644287N5R4;
+				INFOPLIST_FILE = Watchulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.Watchulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F02B5E4A1FE8668D00B3971E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 644287N5R4;
+				INFOPLIST_FILE = Watchulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.Watchulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F02B5E4C1FE8668D00B3971E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatchulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.WatchulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watchulator.app/Watchulator";
+			};
+			name = Debug;
+		};
+		F02B5E4D1FE8668D00B3971E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WatchulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.WatchulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watchulator.app/Watchulator";
+			};
+			name = Release;
+		};
+		F02B5E4F1FE8668D00B3971E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WatchulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.WatchulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Watchulator;
+			};
+			name = Debug;
+		};
+		F02B5E501FE8668D00B3971E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WatchulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobdylanmoore.WatchulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Watchulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F02B5DEF1FE8668D00B3971E /* Build configuration list for PBXProject "Watchulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B5E3E1FE8668D00B3971E /* Debug */,
+				F02B5E3F1FE8668D00B3971E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B5E401FE8668D00B3971E /* Build configuration list for PBXNativeTarget "Watchulator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B5E411FE8668D00B3971E /* Debug */,
+				F02B5E421FE8668D00B3971E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B5E441FE8668D00B3971E /* Build configuration list for PBXNativeTarget "Watchulator WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B5E451FE8668D00B3971E /* Debug */,
+				F02B5E461FE8668D00B3971E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B5E481FE8668D00B3971E /* Build configuration list for PBXNativeTarget "Watchulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B5E491FE8668D00B3971E /* Debug */,
+				F02B5E4A1FE8668D00B3971E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B5E4B1FE8668D00B3971E /* Build configuration list for PBXNativeTarget "WatchulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B5E4C1FE8668D00B3971E /* Debug */,
+				F02B5E4D1FE8668D00B3971E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02B5E4E1FE8668D00B3971E /* Build configuration list for PBXNativeTarget "WatchulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02B5E4F1FE8668D00B3971E /* Debug */,
+				F02B5E501FE8668D00B3971E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F02B5DEC1FE8668D00B3971E /* Project object */;
+}

@@ -764,6 +764,7 @@
 				F09CEE841FE8516A00A74428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F09CEE861FE8516A00A74428 /* Build configuration list for PBXNativeTarget "Watchulator WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -772,6 +773,7 @@
 				F09CEE881FE8516A00A74428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F09CEE8A1FE8516A00A74428 /* Build configuration list for PBXNativeTarget "Watchulator" */ = {
 			isa = XCConfigurationList;
@@ -780,6 +782,7 @@
 				F09CEE8C1FE8516A00A74428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F09CEE8D1FE8516A00A74428 /* Build configuration list for PBXNativeTarget "WatchulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -788,6 +791,7 @@
 				F09CEE8F1FE8516A00A74428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F09CEE901FE8516A00A74428 /* Build configuration list for PBXNativeTarget "WatchulatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -796,6 +800,7 @@
 				F09CEE921FE8516A00A74428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

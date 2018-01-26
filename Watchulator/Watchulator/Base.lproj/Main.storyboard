@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="uGg-27-6yI">
+                                <rect key="frame" x="51" y="78" width="272" height="198"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="198" id="45t-TO-49U"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" text="This app was designed and created by Jacob Moore." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEf-zC-3Cs">
+                                <rect key="frame" x="51" y="317" width="272" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" text="www.jacobdylanmoore.com" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8ip-WU-Utd">
+                                <rect key="frame" x="51" y="368" width="272" height="33"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8ip-WU-Utd" firstAttribute="trailing" secondItem="XEf-zC-3Cs" secondAttribute="trailing" id="0AE-5U-nDa"/>
+                            <constraint firstItem="uGg-27-6yI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5fD-iV-aZy"/>
+                            <constraint firstItem="uGg-27-6yI" firstAttribute="leading" secondItem="XEf-zC-3Cs" secondAttribute="leading" id="Af8-Y1-bPD"/>
+                            <constraint firstItem="8ip-WU-Utd" firstAttribute="leading" secondItem="XEf-zC-3Cs" secondAttribute="leading" id="I3g-Ex-TWf"/>
+                            <constraint firstItem="uGg-27-6yI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="Jcl-iB-Jwx"/>
+                            <constraint firstItem="XEf-zC-3Cs" firstAttribute="top" secondItem="uGg-27-6yI" secondAttribute="bottom" constant="41" id="ZgH-tU-dCp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8ip-WU-Utd" secondAttribute="bottom" constant="271" id="i8Z-i0-RI6"/>
+                            <constraint firstItem="uGg-27-6yI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="58" id="j1K-8L-iRO"/>
+                            <constraint firstItem="uGg-27-6yI" firstAttribute="trailing" secondItem="XEf-zC-3Cs" secondAttribute="trailing" id="jfI-Ah-bmr"/>
+                            <constraint firstItem="XEf-zC-3Cs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-11.5" id="nyV-PW-UeR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-213.59999999999999" y="0.44977511244377816"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image (1).png" width="300" height="300"/>
+    </resources>
+</document>
